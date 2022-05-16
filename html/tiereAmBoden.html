@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/Style.css"/>
+    <title>Tiere am Boden</title>
+</head>
+<body>
+
+<header>
+    <img class="logo" src="../Bilder/fixxeBilder/wwf.png" width="150" height="150">
+    <h1><span style="color: lightskyblue;">Tiere am </span><span style="color: cornsilk;">Boden</span></h1>
+</header>
+
+
+<main>
+    <h2>Die Tiere die am Boden des Regenwaldes leben</h2>
+
+    <details class="nashorn">
+        <summary>1. Nashorn</summary>
+        <p>Ihren Namen verdanken Nashörner ihrem auffälligsten Merkmal: ihren Hörnern. Diese haben keinen knochigen
+            Kern, sondern bestehen
+            aus zusammengewachsenen Keratinfasern (Keratin: Hornsubstanz). Die beiden afrikanischen Arten sowie das
+            Sumatra-Nashorn tragen
+            je zwei hintereinander angeordnete Hörner, von denen das vordere meist das längere ist. Panzer- und
+            Java-Nashörner besitzen nur ein Horn am Schnauzenende.
+            Die Familie der Nashörner (Rhinocerotidae) umfasst vier Gattungen mit fünf Arten, von denen zwei in Afrika
+            (Breitmaulnashorn
+            und Spitzmaulnashorn) und drei in Asien vorkommen (Java-, Panzer-, Sumatra-Nashorn). Sie alle haben eines
+            gemeinsam. Alle stehen
+            auf der Roten Liste der bedrohten Tierarten.</p>
+    </details>
+
+    <br>
+
+    <details class="affe">
+        <summary>2.Orang-Utan</summary>
+        <p>Orang-Utans werden in drei Arten eingeteilt: Sumatra-Orang-Utan (Pongo abelii), Tapanuli Orang-Utan (Pongo
+            tapanuliensis)
+            und Borneo-Orang-Utan (Pongo pygmaeus). Letzterer wird weiter in drei Unterarten unterteilt: P. p. pygmaeus,
+            P. p. wurmbii und P. p. morio.
+            Wissenschaftler gehen von 45 unterschiedlichen Meta-Populationen des Borneo-Orang-Utans in den beiden
+            malaysischen Bundesstaaten
+            Sarawak und Sabah, sowie im indonesischen Kalimantan aus.
+            Auf Sumatra leben die Tiere hauptsächlich nördlich des Batang Toru-Flusses im Norden der Insel. Noch bis in
+            die zweite
+            Hälfte des 20. Jahrhunderts hinein kamen Orang-Utans auch in weiter südlich gelegenen Teilen Sumatras
+            vor.</p>
+    </details>
+
+    <br>
+
+    <details class="tiger">
+        <summary>3. Tiger</summary>
+        <p>Leoparden ernähren sich ausschließlich von Fleisch. Dolchartige Eckzähne, messerscharfe Krallen, gute
+            Nachtsicht, kräftige Muskeln und
+            eine tarnende Musterung befähigen sie, schnelle, schwergewichtige, wehrhafte und manchmal sogar gefährliche
+            Beutetiere überwältigen zu
+            können. Unter den Raubtieren gehören Leoparden zu den besten Schleichjägern. Sie können sich besonders nah
+            an ihre Beutetiere heranschleichen.
+            Zum Angriff schießen sie aus dem Hinterhalt hervor, stürzen sich auf die Beute und reißen sie nieder.
+            Größere Tiere töten sie mit einem Kehlbiss,
+            kleinere mit einem Nackenbiss. Zur Verteidigung ihrer Mahlzeit vor Nahrungskonkurrenten ziehen Leoparden
+            ihren Riss über Hunderte von Metern über den
+            Boden und klettern dann mit der Beute im Schlepptau bis in mehrere Meter Höhe ins Geäst von Bäumen.</p>
+    </details>
+
+    <br>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="/websiteHosting/BildereHosting/Bilder/AmBodenBilder/nashorn.png" style="width:60%" height="630cm">
+        </div>
+        <div class="mySlides fade">
+            <img src="/websiteHosting/BildereHosting/Bilder/AmBodenBilder/orangUtan.png" style="width:60%" height="630cm">
+        </div>
+        <div class="mySlides fade">
+            <img src="/websiteHosting/BildereHosting/Bilder/AmBodenBilder/tiger.png" style="width:60%" height="630cm">
+        </div>
+    </div>
+    <br>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</main>
+
+<aside>
+    <h3 class="menuSchrift">Menu</h3>
+    <button>
+        <a href="Index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-brightness-high" viewBox="0 0 16 16">
+                <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+            </svg>
+            Willkommen
+        </a>
+    </button>
+
+    <button>
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill"
+                 viewBox="0 0 16 16">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd"
+                      d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+            </svg>
+            Tiere am Boden
+        </a>
+    </button>
+
+    <button>
+        <a href="tiereInDerLuft.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-archive-fill" viewBox="0 0 16 16">
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"/>
+            </svg>
+            Tiere in der Luft
+        </a>
+    </button>
+
+    <button>
+        <a href="kontaktImpressum.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil"
+                 viewBox="0 0 16 16">
+                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+            </svg>
+            Kontakt/Impressum
+        </a>
+    </button>
+
+    <button>
+        <a href="standorte.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image"
+                 viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+            </svg>
+            Standorte
+        </a>
+    </button>
+
+    <button>
+        <a href="spenden.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2"
+                 viewBox="0 0 16 16">
+                <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1
+                1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+            </svg>
+            Spenden
+        </a>
+    </button>
+
+</aside>
+
+<aside class="news">
+    <h3>News</h3>
+    Es wurden neue Tiere im Regenwald endeckt und es wurden Nachforschungen angestellt.
+    <br> <br>
+    <a href="Index.html"><img src="../Bilder/newsBilder/nasenbaer.jpg" width="100%"></a>
+    <a href="Index.html"><img src="../Bilder/newsBilder/affeWeissesFell.jpg" width="100%"></a>
+    <a href="Index.html"><img src="../Bilder/newsBilder/affeMitNase.jpg" width="100%"></a>
+</aside>
+
+<footer>
+    @2022 Regenwald
+</footer>
+
+</body>
+</html>
